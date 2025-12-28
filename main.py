@@ -3,10 +3,11 @@ from openai import OpenAI
 from bot import respond
 from streamlit_chat import message as print_message
 import uuid
+import os
 
 st.title("Online Shopping Assistant")
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"],base_url="https://openrouter.ai/api/v1")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"),base_url="https://openrouter.ai/api/v1")
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "xiaomi/mimo-v2-flash:free"
