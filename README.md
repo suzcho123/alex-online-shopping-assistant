@@ -12,6 +12,14 @@ Features:
  - Prompt-engineered system role for controlled responses 
  - Streamlit-based chat UI 
  - Uses OpenRouter-compatible OpenAI client
+- Powered by Xiaomi: MiMo-V2-Flash (free) model via OpenRouter
+
+Model Details
+- Provider: OpenRouter
+- Model: xiaomi/mimo-v2-flash:free
+- Usage: LLM response generation for catalog-based conversational shopping
+- Reason for Selection: Fast, cost-free inference suitable for lightweight conversational applications
+
 
 Project Structure:
 - data/
@@ -68,7 +76,7 @@ Tech Stack
 - Streamlit
 
 - OpenAI / OpenRouter API
-
+- OpenAI-compatible client
 - LLM Prompt Engineering
 
 - streamlit-chat
