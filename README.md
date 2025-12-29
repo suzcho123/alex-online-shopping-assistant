@@ -7,12 +7,12 @@ This project showcases prompt engineering, catalog-based retrieval, and the deve
 Features:
 
  - Conversational shopping assistant (Alex)
- - Retrieves relevant products from a dress catalog 
+ - Retrieves relevant products from a dress catalog based on Amazon.com listings
  - Strictly constrained to catalog data (no hallucinations)
  - Prompt-engineered system role for controlled responses 
  - Streamlit-based chat UI 
  - Uses OpenRouter-compatible OpenAI client
-- Powered by Xiaomi: MiMo-V2-Flash (free) model via OpenRouter
+ - Powered by Xiaomi: MiMo-V2-Flash (free) model via OpenRouter
 
 Model Details
 - Provider: OpenRouter
