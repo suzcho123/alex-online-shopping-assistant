@@ -118,3 +118,8 @@ Future Improvements:
 -Incorporate product images for richer browsing
 -Enable multi-catalog support
 -Introduce user personalization and preference tracking
+
+References
+
+Dress product data based on listings from Amazon.com
+Xiaomi: MiMo-V2-Flash model via OpenRouter: https://openrouter.ai/xiaomi/mimo-v2-flash:free
