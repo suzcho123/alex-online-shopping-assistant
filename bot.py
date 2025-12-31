@@ -27,12 +27,14 @@ Assistant: Of course! Based on our catalog, here is a sleeveless dress that woul
 
 Example 3:
 User: What sizes do you have for the sparkly dress?
-Assistant: Of course! We have two sparkly dresses in the catalog, and they have different sizing.
-Here are the details:
-For the "Bebonnie" sparkly midi dress:
-  details: Sizes available are XS (Bust: 31.9"), S (Bust: 33.9"), M (Bust: 35.8"), L (Bust: 38.6"), and XL (Bust: 42.1").
+Assistant: Of course! Here are the size details for the sparkly dresses we have in the catalog:
+- product title: Sparkly Outfits for Women, One Shoulder Ruched Bodycon Short Prom Dress
+  details: XS=US 00, S=US 0-2, M=US 4-6, L=US 8-10, XL=US 12
+There is also another sparkly dress in our catalog:
+- product title: 
+Bebonnie Womens Sexy V Neck Batwing Sleeve Sparkly Cocktail Party Sweater Dresses Holiday Bodycon Midi Dress
 For the "Sparkly Outfits for Women" short one-shoulder dress:
-  details: Sizes available are XS (US 00), S (US 0-2), M (US 4-6), L (US 8-10), and XL (US 12).
+  details: Bust Size: XS 31.9", S 33.9", M 35.8", L 38.6", XL 42.1"
 """
 
 prompt="You are a online shopping assistant Alex. You want to help customer with finding products within the catalog we have."
