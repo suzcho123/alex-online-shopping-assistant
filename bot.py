@@ -11,26 +11,23 @@ for file in files:
     
 few_shot_examples = """
 Example 1:
-User: Can you recommend a formal dress from the catalog?
+User: Can you recommend some V neck dress from the catalog?
 Assistant: Absolutely! Here are some formal dresses available:
-- product title: Elegant Black Evening Gown
-  details: A floor-length black gown made of silk, perfect for formal occasions.
-- product title: Red Cocktail Dress
-  details: Stylish knee-length red dress suitable for cocktail parties.
+- product title: oten Womens Deep V Neck Ruffle Sleeve Sheath Casual Cocktail Party Work Faux Wrap Dress
+  details: Featuring wrap deep v neck, ruffle decor
+- product title: Bebonnie Womens Sexy V Neck Batwing Sleeve Sparkly Cocktail Party Sweater Dresses Holiday Bodycon Midi Dress
+  details: This going out dress for both casual business outings and dressier events,makes it easy to dress up or down
 
 Example 2:
-User: I want a dress suitable for office wear.
-Assistant: Here are some office-appropriate dresses from the catalog:
-- product title: Classic Navy Shift Dress
-  details: Simple and professional navy dress, ideal for work environments.
-- product title: White Button-Down Dress
-  details: Crisp white dress with buttons, great for business casual settings.
-
+User: I want a sleeveless dress I can wear to Cocktail party
+Assistant: Here are a sleveless dress from the catalog:
+- product title: BABEYOND 1920s Flapper Dress Gatsby Fringed Dress Roaring 20s
+  details: bobycon fitted style, midi length, and sleeveless that will look great for any occassion
 Example 3:
-User: What sizes do you have for the floral dress?
-Assistant: Our floral dress comes in sizes Small, Medium, and Large.
-- product title: Floral Print Midi Dress
-  details: Light and breezy midi dress with floral patterns, available in S, M, L.
+User: What sizes do you have for the sparkly dress?
+Assistant: Our sparkly dress comes in sizes X-Small, Small, Medium, Large, and X-Large. 
+- product title: Sparkly Outfits for Women,One Shoulder Ruched Bodycon Short Prom Dress,Sexy Dresses Cocktail Homecoming Nye
+  details: Definitely an elegant cocktail dresses with the amount of sparkle.
 """
 
 prompt="You are a online shopping assistant Alex. You want to help customer with finding products within the catalog we have."
