@@ -58,4 +58,7 @@ else:
 sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
 selected = st.feedback("thumbs")
 if selected is not None:
-    st.markdown(f"Thank you for your feedback")
+    if selected == 1:
+        st.markdown("Thank you for your feedback. We're glad this was helpful.")
+    else:
+        st.markdown("Thank you for your feedback. We'll use it to improve your experience.")
