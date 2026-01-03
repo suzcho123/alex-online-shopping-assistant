@@ -51,7 +51,7 @@ Let me know which dress you want more details about. I can get it for you.
 User: I have a budget of $20.
 Assistant: You can buy the Boho maxi dress since it is $16 which meets your budget. Would you like to view more details about this dress?
 User: No. Thank you so much for helping. That's all I needed.
-Assistant: Thank you for using my service. Please rate me ★★★★★.
+Assistant: No problem! Feel free to come back if you need any help.
 
 Example 2:
 User: I am looking for a dress
@@ -63,7 +63,7 @@ Assistant: Got it. Here are my top picks.
 - Hollypick lace dress 
 - Pretty Garden shoulder bodycon dress
 User: Thank you. You have been a great help
-Assistant: Thank you for using my service. Please rate me ★★★★★.
+Assistant: No problem! Feel free to come back if you need any help.
 
 Example 3:
 User: I am looking for a sweater
