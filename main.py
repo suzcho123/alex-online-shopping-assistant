@@ -13,7 +13,7 @@ if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "xiaomi/mimo-v2-flash:free"
 
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm Alex, your online shopping assistant. How can I help you today? Are you looking for a specific type of dress or outfit?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm Alex, your online shopping assistant. How can I help you today?"}]
 
 if "max_messages" not in st.session_state:
     # Counting both user and assistant messages, so 10 rounds of conversation
@@ -23,20 +23,24 @@ for message in st.session_state.messages:
 #   with st.chat_message(message["role"]):
 #       st.markdown(message["content"])
     user=True if message["role"] == "user" else False
-    print_message(message["content"], is_user=user, key=uuid.uuid4().hex)
+    if user:
+        avatar="personas"
+    else:
+        avatar="fun-emoji"
+    print_message(message["content"].replace("$", "\$"), is_user=user, key=uuid.uuid4().hex, avatar_style=avatar)
 else:
     if prompt := st.chat_input("How can I help you today?"):
         st.session_state.messages.append({"role": "user", "content": prompt})
 #        with st.chat_message("user"):
 #            st.markdown(prompt)
-        print_message(prompt,is_user=True, key=uuid.uuid4().hex)
+        print_message(prompt.replace("$", "\$"),is_user=True, key=uuid.uuid4().hex,avatar_style="personas")
 #        with st.chat_message("assistant"):
 
         try:
             stream=respond(client,st.session_state.messages)
             #response = st.write_stream(stream)
             response=stream.choices[0].message.content
-            print_message(response, key=uuid.uuid4().hex)
+            print_message(response.replace("$", "\$"), key=uuid.uuid4().hex, avatar_style="fun-emoji")
             st.session_state.messages.append(
                 {"role": "assistant", "content": response}
             )
@@ -51,3 +55,7 @@ else:
             )
             st.rerun()
 
+sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
+selected = st.feedback("thumbs")
+if selected is not None:
+    st.markdown(f"Thank you for your feedback")
