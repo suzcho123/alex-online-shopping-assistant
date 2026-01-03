@@ -41,7 +41,7 @@ prompt="You are a online shopping assistant Alex. You want to help customer with
 prompt+="Here is a catalog: "
 for title,description in catalog.items():
     prompt+= f"product title: {title}\n details: {description}\n\n"
-prompt += few_shot_examples
+#prompt += few_shot_examples
 prompt+="DO NOT ANSWER ANYTHING BEYOND SHOPPING. DO NOT GIVE ANY INFORMATION APART FROM CATALOG THAT IS PROVIDED TO YOU"
 model="xiaomi/mimo-v2-flash:free"
 
