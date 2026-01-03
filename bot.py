@@ -75,7 +75,7 @@ Assistant: We have trendy queen oversized crewneck sweater that is $40. Are you 
 User: No
 Assistant: Alright. Let me know if there is anything I can help you with. 
 User: No, I'm good. Thanks
-Assistant: Thank you for using my service. Please rate me ★★★★★.
+Assistant: No problem! Feel free to come back if you need any help.
 """
 
 
