@@ -1,6 +1,6 @@
-# Alex online shopping assistant bot
+# FashionFindr online shopping assistant bot
 
-Alex is an AI-powered online shopping assistant built with Streamlit that helps users discover relevant products from a curated dress catalog. The assistant is strictly constrained to the provided catalog, ensuring accurate, reliable, and hallucination-free responses.
+FashionFindr is an AI-powered online shopping assistant built with Streamlit that helps users discover relevant products from a curated dress catalog. The assistant is strictly constrained to the provided catalog, ensuring accurate, reliable, and hallucination-free responses.
 
 This project showcases prompt engineering, catalog-based retrieval, and the development of an interactive LLM-powered web application.
 
@@ -99,7 +99,7 @@ Examples:
 
 “I’m looking for a new year's party dress.”  
 “Do you have a suitable dress that I can wear to my friend's birthday party?”  
-Alex will only respond with products that exist in the catalog.
+FashionFindr will only respond with products that exist in the catalog.
 
 
 Design Constraints
