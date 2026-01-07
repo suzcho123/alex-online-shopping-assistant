@@ -13,7 +13,7 @@ if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "xiaomi/mimo-v2-flash:free"
 
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm Alex, your online shopping assistant. How can I help you today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Hello! I'm FashionFindr, your online shopping assistant. How can I help you today?"}]
 
 if "max_messages" not in st.session_state:
     # Counting both user and assistant messages, so 10 rounds of conversation
