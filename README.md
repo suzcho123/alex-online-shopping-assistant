@@ -6,7 +6,7 @@ This project showcases prompt engineering, catalog-based retrieval, and the deve
 
 Features:
 
- - Conversational shopping assistant (Alex)
+ - Conversational shopping assistant (FashionFindr )
  - Retrieves relevant products from a dress catalog based on Amazon.com listings
  - Strictly constrained to catalog data (no hallucinations)
  - Prompt-engineered system role for controlled responses 
