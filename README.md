@@ -108,7 +108,7 @@ The assistant cannot:
 - Recommend products not in the catalog
 - Answer non-shopping-related questions
 - Provide external fashion advice  
- → This ensures safe, reliable, and controlled responses.
+   -- This ensures safe, reliable, and controlled responses.
 
 Future Improvements:
 
@@ -121,5 +121,5 @@ Future Improvements:
 
 References
 
-- Dress product data based on listings from Amazon.com
+- Dress and sweater product data based on listings from Amazon.com
 - Xiaomi: MiMo-V2-Flash model via OpenRouter: https://openrouter.ai/xiaomi/mimo-v2-flash:free
